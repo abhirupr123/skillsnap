@@ -1,0 +1,274 @@
+# SkillSnap Android Project - .gitignore
+
+# ========================
+# 🔒 SENSITIVE DATA - NEVER COMMIT
+# ========================
+
+# API Keys and Credentials
+local.properties
+app/google-services.json
+app/build.gradle.kts
+**/google-services.json
+*.keystore
+*.jks
+key.properties
+
+# Firebase Config Files
+google-services.json
+firebase-adminsdk-*.json
+service-account-*.json
+
+# Environment Variables
+.env
+.env.local
+.env.production
+
+# Secrets and Keys
+secrets/
+keys/
+credentials/
+*.pem
+*.p12
+*.key
+
+# ========================
+# 🏗️ BUILD FILES
+# ========================
+
+# Gradle Files
+.gradle/
+build/
+*/build/
+app/build/
+gradle-app.setting
+!gradle-wrapper.jar
+!gradle-wrapper.properties
+
+# Local Build Cache
+.buildcache/
+
+# ========================
+# 🔧 IDE FILES
+# ========================
+
+# Android Studio
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/assetWizardSettings.xml
+.idea/dictionaries
+.idea/libraries
+.idea/jarRepositories.xml
+.idea/compiler.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/scopes/scope_settings.xml
+.idea/vcs.xml
+.idea/jsLibraryMappings.xml
+.idea/datasources.xml
+.idea/datasources/
+.idea/sqlDataSources.xml
+.idea/dynamic.xml
+.idea/uiDesigner.xml
+.idea/dbnavigator.xml
+.idea/caches/
+.idea/shelf/
+
+# IntelliJ
+out/
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# ========================
+# 📱 ANDROID SPECIFIC
+# ========================
+
+# Generated Files
+gen/
+bin/
+R.java
+BuildConfig.java
+
+# Lint
+lint-results.xml
+lint-results_files/
+lint-report.html
+
+# Proguard
+proguard/
+
+# Android Profiling
+*.hprof
+
+# Keystore files
+*.keystore
+*.jks
+debug.keystore
+
+# ========================
+# 🗃️ DATABASE & STORAGE
+# ========================
+
+# Room Database Schema
+app/schemas/
+*/schemas/
+
+# SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# ========================
+# 📦 DEPENDENCIES
+# ========================
+
+# Node modules (if using React Native or web components)
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ========================
+# 🖥️ SYSTEM FILES
+# ========================
+
+# macOS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.fuse_hidden*
+.directory
+.Trash-*
+
+# ========================
+# 📝 LOGS & TEMP FILES
+# ========================
+
+# Log Files
+*.log
+logs/
+log/
+
+# Temporary Files
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+
+# Crash Reports
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# ========================
+# 🧪 TESTING
+# ========================
+
+# Test Results
+test-results/
+androidTest-results/
+.externalNativeBuild/
+
+# Coverage Reports
+coverage/
+*.gcov
+*.gcda
+*.gcno
+
+# ========================
+# 🚀 DEPLOYMENT
+# ========================
+
+# Release Files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# Signing
+signing.properties
+release/
+
+# ========================
+# 🔄 VERSION CONTROL
+# ========================
+
+# Git
+.git/
+*.orig
+*.rej
+
+# SVN
+.svn/
+
+# Mercurial
+.hg/
+
+# ========================
+# 📚 DOCUMENTATION TEMP
+# ========================
+
+# Generated Documentation
+docs/build/
+site/
+
+# ========================
+# 🎯 PROJECT SPECIFIC
+# ========================
+
+# SkillSnap Specific
+app/src/main/java/com/skillsnap/app/util/Constants.kt
+**/Constants.kt
+
+# Backup Files
+*.bak
+*.backup
+
+# ========================
+# 🔍 ANALYSIS TOOLS
+# ========================
+
+# SonarQube
+.sonar/
+.scannerwork/
+
+# Detekt
+detekt-report.html
+detekt-report.xml
+
+# ========================
+# 📱 EMULATOR & DEVICE
+# ========================
+
+# AVD Files
+*.avd/
+avd/
+
+# Device Screenshots
+screenshots/
+screen-*.png
+
+# ========================
+# END OF .gitignore
+# ======================== 

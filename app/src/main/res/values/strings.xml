@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SkillSnap</string>
+    <string name="skill_selection_title">What skill do you want to learn?</string>
+    <string name="skill_hint">e.g., Spanish, Pushups, Journaling</string>
+    <string name="generate_challenge">Generate 7-Day Challenge</string>
+    <string name="today_challenge">Today\'s Challenge</string>
+    <string name="mark_complete">Mark Complete</string>
+    <string name="progress">Progress</string>
+    <string name="notification_title">SkillSnap Reminder</string>
+    <string name="notification_content">Your daily micro-task is ready!</string>
+    <string name="loading">Loading...</string>
+    <string name="error_generating_challenge">Error generating challenge. Please try again.</string>
+    <string name="challenge_completed">Challenge completed!</string>
+    <string name="day">Day</string>
+    <string name="completed">Completed</string>
+    <string name="pending">Pending</string>
+</resources> 
